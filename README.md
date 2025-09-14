@@ -16,6 +16,20 @@
 - 🔥 **Burner Wallet & Prefunded Account**: Quickly test your application with a burner wallet and prefunded accounts.
 - 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with Starknet network.
 
+## Counter Contract Components
+
+This project includes a comprehensive Counter Contract implementation with the following components:
+
+1. **CounterDisplay** - Displays the current counter value
+2. **IncreaseCounterButton** - Button to increment the counter (available to all users)
+3. **DecreaseCounterButton** - Button to decrement the counter (available to all users)
+4. **SetCounterForm** - Form to set a specific counter value (owner only)
+5. **ApproveStrkButton** - Approve STRK tokens for counter reset functionality
+6. **ResetCounterButton** - Reset counter to zero (requires STRK payment, owner only)
+7. **CounterEventsList** - Historical events list (currently disabled)
+
+*This implementation is part of the Starknet Developer Basecamp.*
+
 ![Debug Contracts tab](./packages/nextjs/public/debug-image.png)
 
 ## 0. Requirements
