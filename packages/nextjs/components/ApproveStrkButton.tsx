@@ -15,7 +15,7 @@ export function ApproveStrkButton() {
     functionName: "approve",
     args: [
       counterContract?.address, // spender (el contrato CounterContract)
-      "1000000000000000000" // amount (1 STRK en wei)
+      BigInt("1000000000000000000") // amount (1 STRK en wei)
     ],
   });
 
